@@ -25,8 +25,8 @@ public class PalindromeChecker {
 
             System.out.println(isPalindrome(word) ? "This word is a palindrome." : "This word is not a palindrome.");
 
-            System.out.print("Do you want to continue? [Y/N]: ");
+            System.out.print("Do you want to continue? [Yes/No]: ");
             choice = input.nextLine();
-        } while (choice.equalsIgnoreCase("Y"));
+        } while (choice.equalsIgnoreCase("yes"));
     }
 }
