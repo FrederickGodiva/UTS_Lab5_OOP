@@ -5,6 +5,9 @@ import java.util.Scanner;
 
 public class AnagramChecker {
     public static boolean areAnagram(String word1, String word2) {
+        word1 = word1.toLowerCase();
+        word2 = word2.toLowerCase();
+
         char[] charArray1 = word1.toCharArray();
         char[] charArray2 = word2.toCharArray();
 
