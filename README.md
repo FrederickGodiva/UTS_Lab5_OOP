@@ -1,3 +1,43 @@
+```
+class Information {
+    private String name;
+    private String nim;
+    private char kom;
+
+    public Information(String name, String nim, char kom) {
+        this.name = name;
+        this.nim = nim;
+        this.kom = kom;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public String getNim() {
+        return this.nim;
+    }
+
+    public char getKom() {
+        return this.kom;
+    }
+
+    public void display() {
+        System.out.println("Halo semuanya, perkenalkan saya adalah " + this.getName());
+        System.out.print("NIM saya " + this.getNim());
+        System.out.println(" dan saya berasal dari Kom " + this.getKom());
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Information me = new Information("Frederick Godiva", "221401038", 'C');
+        me.display();
+    }
+}
+```
+---
+
 # Soal 1
 ![image](https://github.com/FrederickGodiva/UTS_Lab5_OOP/assets/114503454/76449df5-7fbd-479e-a22f-18ef16b7dd50)
 
