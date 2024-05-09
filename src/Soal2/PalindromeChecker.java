@@ -4,9 +4,11 @@ import java.util.Scanner;
 
 public class PalindromeChecker {
     public static boolean isPalindrome(String word) {
+        word = word.toLowerCase();
+
         int length = word.length();
-        for (int i = 0; i < length / 2; i++) {
-            if (word.charAt(i) != word.charAt(length - i - 1)) {
+        for(int i = 0; i < length / 2; i++) {
+            if(word.charAt(i) != word.charAt(length - i - 1)) {
                 return false;
             }
         }
