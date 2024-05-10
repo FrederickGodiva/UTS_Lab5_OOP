@@ -24,7 +24,7 @@ public class Main {
         System.out.print("Enter your alma mater : ");
         String university = input.nextLine();
 
-        // Person object (with parameters which is taken from user's input)
+        // Person object (with parameters which are taken from user input)
         Person Frederick = new Person(name, age, university);
         Frederick.display();    // called display method from Person class
 
