@@ -1,15 +1,30 @@
 package Soal1;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
         // Person Object (without parameters)
         Person non = new Person();
         non.display();  // called display method from Person class
 
         System.out.println();
 
+        System.out.print("Enter your name : ");
+        String name = input.nextLine();
+
+        System.out.print("Enter your age : ");
+        int age = input.nextInt();
+
+        input.nextLine();
+
+        System.out.print("Enter your alma mater : ");
+        String university = input.nextLine();
+
         // Person object (with parameters)
-        Person Frederick = new Person("Frederick Godiva", 20, "Universitas Sumatera Utara");
+        Person Frederick = new Person(name, age, university);
         Frederick.display();    // called display method from Person class
 
         System.out.println();
