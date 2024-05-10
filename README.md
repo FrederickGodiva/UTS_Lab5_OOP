@@ -41,7 +41,8 @@ public class Main {
 ---
 
 # Soal 1
-![image](https://github.com/FrederickGodiva/UTS_Lab5_OOP/assets/114503454/76449df5-7fbd-479e-a22f-18ef16b7dd50)
+![image](https://github.com/FrederickGodiva/UTS_Lab5_OOP/assets/114503454/30037237-7f6c-44ec-83c3-0dcf14055019)
+
 
 <br>
 
