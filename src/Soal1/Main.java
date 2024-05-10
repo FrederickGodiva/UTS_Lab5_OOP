@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        // Creating a Scanner object to read user input
         Scanner input = new Scanner(System.in);
 
         // Person Object (without parameters)
@@ -23,7 +24,7 @@ public class Main {
         System.out.print("Enter your alma mater : ");
         String university = input.nextLine();
 
-        // Person object (with parameters)
+        // Person object (with parameters which is taken from user's input)
         Person Frederick = new Person(name, age, university);
         Frederick.display();    // called display method from Person class
 
